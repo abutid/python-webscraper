@@ -59,9 +59,6 @@ def send_mail():
     )
 
     print('Amazon Price Tracker Email Has Been Sent')
-#
-# def email(to_email, subject, message, servor='smtp.gmail.con'):
-
 
     server.quit()
 
