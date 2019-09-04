@@ -40,8 +40,8 @@ def analyze_price():
 
 def send_mail():
     server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.ehlo()       # for connecting and identifying the connection for email
-    server.starttls()   # encrypts connection
+    server.ehlo()       
+    server.starttls()   
     server.ehlo()
 
     server.login('rasbian33@gmail.com', 'Trolls1212')
