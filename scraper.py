@@ -5,9 +5,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import smtplib
-from email.mime.text import MIMEText
-from email.parser import BytesParser, Parser
-from email.policy import default
+
 
 URL = 'https://www.amazon.com/dp/B07K97BQDF/ref=us_comp_a_ip_xr_5c008'
 
