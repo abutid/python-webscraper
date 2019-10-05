@@ -1,1 +1,1 @@
-# a simple python application that scrapes a website for a particular product and tracks the products to see if the price has been reduced and sends a email alert
+# A small python script to help me learn python and get hands on experience on how to build applications with it.  
