@@ -44,7 +44,7 @@ def send_mail():
     server.starttls()   
     server.ehlo()
 
-    server.login('rasbian33@gmail.com', 'Trolls1212')
+    server.login('336699@gmail.com', 'Password336699')
 
     subject = 'Price dropped!'
     body = 'Check the link to see the the reduced price https://www.amazon.com/dp/B07K97BQDF/ref=us_comp_a_ip_xr_5c008'
