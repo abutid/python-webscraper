@@ -1,4 +1,4 @@
-# python application that trackers the product on amazon and notifies you via email
+# python application that trackes a product on amazon and notifies you via email
 # if price has gone down
 
 import re
@@ -9,7 +9,7 @@ import smtplib
 
 URL = 'https://www.amazon.com/dp/B07K97BQDF/ref=us_comp_a_ip_xr_5c008'
 
-#give information about the browser
+#gives information about the browser
 header = {
     "User-Agent": 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'}
 
